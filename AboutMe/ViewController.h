@@ -12,7 +12,6 @@
 
 @property(nonatomic, copy) UIColor *backgroundColor;
 
-
 @property (strong, nonatomic) IBOutlet UILabel *aboutMeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *bioLabel;
 
