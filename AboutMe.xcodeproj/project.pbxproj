@@ -14,6 +14,10 @@
 		237E439C19EAC55000AB706F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237E439B19EAC55000AB706F /* Images.xcassets */; };
 		237E439F19EAC55000AB706F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 237E439D19EAC55000AB706F /* LaunchScreen.xib */; };
 		237E43AB19EAC55100AB706F /* AboutMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 237E43AA19EAC55100AB706F /* AboutMeTests.m */; };
+		237E43B519EADDBA00AB706F /* wednmorn1..jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237E43B419EADDBA00AB706F /* wednmorn1..jpg */; };
+		237E43B719EADE7400AB706F /* IMG_1051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 237E43B619EADE7400AB706F /* IMG_1051.jpg */; };
+		237E43CB19EB289300AB706F /* DSCN1588.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 237E43CA19EB289300AB706F /* DSCN1588.JPG */; };
+		23BBADAD19F371670036C6CE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 23BBADAC19F371670036C6CE /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		237E43A419EAC55100AB706F /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237E43A919EAC55100AB706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		237E43AA19EAC55100AB706F /* AboutMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutMeTests.m; sourceTree = "<group>"; };
+		237E43B419EADDBA00AB706F /* wednmorn1..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wednmorn1..jpg; path = "/Users/Renn/Desktop/untitled folder/wednmorn1..jpg"; sourceTree = "<absolute>"; };
+		237E43B619EADE7400AB706F /* IMG_1051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1051.jpg; path = "/Users/Renn/Desktop/untitled folder/IMG_1051.jpg"; sourceTree = "<absolute>"; };
+		237E43CA19EB289300AB706F /* DSCN1588.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DSCN1588.JPG; path = "/Users/Renn/Desktop/untitled folder/DSCN1588.JPG"; sourceTree = "<absolute>"; };
+		23BBADAC19F371670036C6CE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Icons/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +89,9 @@
 		237E438D19EAC55000AB706F /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				237E439219EAC55000AB706F /* AppDelegate.h */,
-				237E439319EAC55000AB706F /* AppDelegate.m */,
+				237E439819EAC55000AB706F /* Main.storyboard */,
 				237E439519EAC55000AB706F /* ViewController.h */,
 				237E439619EAC55000AB706F /* ViewController.m */,
-				237E439819EAC55000AB706F /* Main.storyboard */,
 				237E439B19EAC55000AB706F /* Images.xcassets */,
 				237E439D19EAC55000AB706F /* LaunchScreen.xib */,
 				237E438E19EAC55000AB706F /* Supporting Files */,
@@ -96,6 +102,12 @@
 		237E438E19EAC55000AB706F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23BBADAC19F371670036C6CE /* logo.png */,
+				237E43CA19EB289300AB706F /* DSCN1588.JPG */,
+				237E43B619EADE7400AB706F /* IMG_1051.jpg */,
+				237E43B419EADDBA00AB706F /* wednmorn1..jpg */,
+				237E439219EAC55000AB706F /* AppDelegate.h */,
+				237E439319EAC55000AB706F /* AppDelegate.m */,
 				237E438F19EAC55000AB706F /* Info.plist */,
 				237E439019EAC55000AB706F /* main.m */,
 			);
@@ -200,7 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				237E439A19EAC55000AB706F /* Main.storyboard in Resources */,
+				237E43CB19EB289300AB706F /* DSCN1588.JPG in Resources */,
+				237E43B719EADE7400AB706F /* IMG_1051.jpg in Resources */,
 				237E439F19EAC55000AB706F /* LaunchScreen.xib in Resources */,
+				23BBADAD19F371670036C6CE /* logo.png in Resources */,
+				237E43B519EADDBA00AB706F /* wednmorn1..jpg in Resources */,
 				237E439C19EAC55000AB706F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				237E43B019EAC55100AB706F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		237E43B119EAC55100AB706F /* Build configuration list for PBXNativeTarget "AboutMeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				237E43B319EAC55100AB706F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

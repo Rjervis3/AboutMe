@@ -24,4 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)picReveal {
+  self.aboutMeLabel.text =@"When I was little";
+  
+}
+
+- (IBAction)picHide {
+    self.aboutMeLabel.text=@"About Me";
+}
 @end

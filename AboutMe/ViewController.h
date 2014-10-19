@@ -10,6 +10,18 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic, copy) UIColor *backgroundColor;
+
+@property (strong, nonatomic) IBOutlet UILabel *aboutMeLabel;
+@property (strong, nonatomic) IBOutlet UILabel *bioLabel;
+
+
+- (IBAction)picReveal;
+
+
+
+- (IBAction)picHide;
+
 
 @end
 
